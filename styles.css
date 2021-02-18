@@ -1,0 +1,180 @@
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle,violet);
+    background-repeat: no-repeat;
+    margin: 0;
+    color:black;
+    height: 100vh;
+}
+
+img{
+    max-width: 80%;
+}
+
+.card{
+    background:dimgray;
+    width: 80%;
+    height: 450px;
+    display: flex;
+    margin: 2em auto;
+}
+.card__left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background: black;
+    justify-content: center;
+    padding: 0.5;
+}
+.card__rigth{
+    width: 80%;
+    padding: 0 10px;
+
+}
+.card__title{
+    text-transform: uppercase;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-around;
+}
+.form__names{
+    display: flex;
+}
+.form__field{
+    display: flex;
+    /*Coloca a las etiquetas y a las entradas en forma de columna*/
+    flex-direction: column;
+}
+.form__label{
+    margin-bottom: 0.8px;
+    text-transform: uppercase;
+    /*16px=1 rem*/
+    font-size: 0.8rem;
+}
+.input,.form__textarea{
+    border: none;
+    background: none;
+    border-bottom: 1px solid thistle;
+    color: inherit;
+}
+.form__textarea{
+    /*hace que la caja de texto no modifique sus dimensiones cuando clickeamos en ella*/
+    resize: none;
+    border: 1px solid #eee;
+    /*No se puede usar heigth con contenedores flex.Le marcamos el limite vertical del text area*/
+    flex-basis: 100px;
+    margin: 3px;
+}
+.form__submit{
+    /*Boton del formulario*/
+    width: 40%;
+    background: aqua;
+    border:none;
+    padding: 0.8rem;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+
+/* CAJA CONTENEDORA Y SUS
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 100vh;
+}
+
+.flex-item{
+    background:blue;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    order: 3;
+}
+
+.flex-item--green{
+    background:green;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    flex:2;
+}
+.flex-item--red{
+    background:red;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    order: 1;
+}
+*/
+/*.caja-de-enlace{
+    border: 3px solid black;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.caja-de-enlace__p{
+    margin-bottom: 10px;
+}
+
+.body{
+    margin-left: 10px;
+} 
+
+.body__h1{
+    font-size: 40px;
+    font-family: 'Stalinist One', cursive;
+    color: violet;
+    text-shadow: 20px 10px 10px black;
+}
+
+.introduccion{
+    
+}
+
+.introduccion__h2{
+    height: auto;
+    width: 150px;
+    background: khaki;
+    margin-bottom: 10px;
+}
+
+.introduccion__h2-p{
+    margin-left: 30px;
+}
+
+.history-box{
+
+}
+
+.history-box__h2{
+    background: cornflowerblue;
+    border: 3px solid blue;
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.history-box__h2-p{
+    margin-left: 30px;
+}
+
+.history-box__h3{
+    background: cornflowerblue;
+    border: 3px solid blue;
+    width: 50px;
+    height: auto;
+    margin: 10px 20px;
+}*/
